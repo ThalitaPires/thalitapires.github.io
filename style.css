@@ -60,3 +60,16 @@ footer {
   margin-bottom: 1rem;
   border-left: 4px solid #ff79c6;
 }
+.cursor {
+  display: inline-block;
+  width: 10px;
+  background-color: #fff;
+  margin-left: 2px;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
